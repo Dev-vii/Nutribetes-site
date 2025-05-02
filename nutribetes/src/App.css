@@ -1,5 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: rgb(236, 236, 236);
+  background-color: white;
+}
+
+#links {
+  text-decoration: none;
+  color: inherit;
 }
 
 header {
@@ -18,12 +27,93 @@ header {
     top: -4px;
     display: flex;
     list-style: none;
+    font-weight: 500;
     gap: 200px;
     justify-content: center;
+    color: white;
   }
 }
 
-.intro {
+#intro {
   position: absolute;
-  top: 30px;
+  width: 100%;
+
+  .fruits {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    left: -500px;
+    top: -170px;
+    filter: opacity(20%);
+  }
+
+  .logo1 {
+    position: relative;
+    height: 430px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  h1 {
+    position: absolute;
+    margin-top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 300;
+  }
+}
+
+#meet {
+  position: absolute;
+  top: 900px;
+  width: 100%;
+  height: 500px;
+
+  .textBox {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #A3BF80;
+    color: white;
+    border-radius: 50px;
+    left: 50px;
+    box-shadow: -5px 5px 10px rgb(185, 185, 185);
+  }
+
+  h2 {
+    position: relative;
+    top: 55px;
+    left: 30px;
+    font-size: 40px;
+  }
+
+  p {
+    position: relative;
+    top: 45px;
+    left: 30px;
+    font-size: 20px;
+  }
+
+  .foto1 {
+    position: absolute;
+    top: 20px;
+    left: 870px;
+    height: 460px;
+    transform: rotate(3deg);
+    border-radius: 50px;
+  }
+
+  .border1 {
+    position: absolute;
+    top: 20px;
+    left: 870px;
+    height: 460px;
+    width: 330px;
+    border-color: #A3BF80;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50px;
+    z-index: -1;
+  }
 }
