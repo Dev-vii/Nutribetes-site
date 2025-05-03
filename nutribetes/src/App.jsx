@@ -3,6 +3,14 @@ import Logo from "./assets/logo.jpg"
 import Fruits from "./assets/fruits.jpg"
 import Foto1 from "./assets/foto1.JPG"
 
+import Diabetes2 from "./assets/diabetes.webp"
+import Hipertensão from "./assets/hipert.jpg"
+import Obesidade from "./assets/obesidade.jpg"
+import Cardio from "./assets/cardio.jpg"
+
+
+// git@github.com:Dev-vii/Nutribetes-site.git = chave
+
 function App() {
   return (
     <div className="App">
@@ -37,27 +45,31 @@ function App() {
           <p>Cuidamos de você de forma integral</p>
           <table>
             <tr>
-              <div>
+              <div id='Infocards'>
                 <h1>Diabetes <br />tipo 2</h1>
+                <img src={Diabetes2} alt="diabetes2" id='ImgBox' />
               </div>
-              <div>
+              <div id='Infocards'>
                 <h1>Hipertensão <br />arterial</h1>
+                <img src={Hipertensão} alt="hipert" id='ImgBox' />
               </div>
-              <div>
+              <div id='Infocards'>
                 <h1>Obesidade e sobrepeso</h1>
+                <img src={Obesidade} alt="obesidade" id='ImgBox' />
               </div>
-              <div>
+              <div id='Infocards'>
                 <h1>Doenças cardiovasculares</h1>
+                <img src={Cardio} alt="cardio" id='ImgBox' />
               </div>
             </tr>
             <tr>
-              <div>
+              <div id='Infocards'>
                 <h1>Colesterol <br />elevado</h1>
               </div>
-              <div>
+              <div id='Infocards'>
                 <h1>Síndrome <br />metabólica</h1>
               </div>
-              <div>
+              <div id='Infocards'>
                 <h1>Distúrbios da <br />tireoide</h1>
               </div>
             </tr>

@@ -153,18 +153,30 @@ header {
       gap: 40px;
       justify-content: center;
 
-      div {
+      #Infocards {
+        cursor: pointer;
         border-radius: 20px;
         width: 250px;
         height: 320px;
-        background-color: white;
-        color: #A3BF80;
+        color: #7db13d;
         box-shadow: -5px 5px 10px rgb(211, 211, 211);
 
         h1 {
           position: relative;
           top: 210px;
           left: 20px;
+          z-index: 2;
+          cursor: auto;
+        }
+
+        #ImgBox {
+          position: relative;
+          border-radius: 20px;
+          height: 100%;
+          width: 100%;
+          top: -104px;
+          left: 0px;
+          z-index: 1;
         }
       }
     }
