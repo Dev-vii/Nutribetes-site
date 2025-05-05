@@ -169,6 +169,11 @@ header {
           cursor: auto;
         }
 
+        p {
+          position: relative;
+          display: none;
+        }
+
         #ImgBox {
           position: relative;
           border-radius: 20px;
@@ -177,6 +182,30 @@ header {
           top: -104px;
           left: 0px;
           z-index: 1;
+        }
+      }
+
+      #Infocards:hover {
+        background-color: #9abd70;
+
+        h1 {
+          top: 0;
+          font-size: 27px;
+          color: #f0f0f0;
+        }
+
+        p {
+          color: #f0f0f0;
+          display: block;
+          top: 10px;
+          left: 20px;
+          font-size: 20px;
+          text-align: left;
+          font-weight: 400;
+        }
+
+        #ImgBox {
+          display: none;
         }
       }
     }
