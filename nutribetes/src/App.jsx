@@ -3,10 +3,17 @@ import Logo from "./assets/logo.jpg"
 import Fruits from "./assets/fruits.jpg"
 import Foto1 from "./assets/foto1.JPG"
 
-import Diabetes2 from "./assets/img/diabetes.webp"
-import Hipertensão from "./assets/img/hipert.jpg"
-import Obesidade from "./assets/img/obesidade.jpg"
-import Cardio from "./assets/img/cardio.jpg"
+import Diabetes2 from "./assets/img/diabetes.png"
+import Hipertensão from "./assets/img/hipert.png"
+import Obesidade from "./assets/img/obesidade.png"
+import Cardio from "./assets/img/cardio.png"
+import Colesterol from "./assets/img/colesterol.png"
+import Metabólica from "./assets/img/metabolic.png"
+import Tireoide from "./assets/img/tireoide.png"
+
+import Zap from "./assets/redes/zap.png"
+import Insta from "./assets/redes/insta.png"
+import Face from "./assets/redes/face.png"
 
 
 // git@github.com:Dev-vii/Nutribetes-site.git = chave
@@ -21,7 +28,7 @@ function App() {
           <li><a href="#intro" id='links'>INTRODUÇÃO</a></li>
           <li><a href="#meet" id='links'>CONHEÇA</a></li>
           <li><a href="#about" id='links'>SOBRE</a></li>
-          <li>CONTATO</li>
+          <li><a href="#contact" id='links'>CONTATO</a></li>
         </ul>
       </header>
 
@@ -77,19 +84,36 @@ function App() {
               <div id='Infocards'>
                 <h1>Colesterol <br />elevado</h1>
                 <p>Mudança de hábitos<br /> com foco na saúde do coração.</p>
+                <img src={Colesterol} alt="diabetes2" id='ImgBox' />
               </div>
               <div id='Infocards'>
                 <h1>Síndrome <br />metabólica</h1>
                 <p>Um plano nutricional completo para restaurar<br /> o equilíbrio metabólico.</p>
+                <img src={Metabólica} alt="diabetes2" id='ImgBox' />
               </div>
               <div id='Infocards'>
                 <h1>Distúrbios da <br />tireoide</h1>
                 <p>Suporte nutricional para modular o metabolismo, melhorar o humor e<br /> o bem-estar.</p>
+                <img src={Tireoide} alt="diabetes2" id='ImgBox' />
               </div>
             </tr>
           </table>
+
+          <button><a href="#contact" id='links'>Quero marcar minha consulta!</a></button>
+        </div>
+
+        <div id='contact'>
+          <h4>Vamos marcar uma consulta?</h4>
         </div>
       </section>
+
+      <footer>
+        <div className='redesSociais'>
+          <img src={Zap} alt="zap" id='contactimg' />
+          <img src={Insta} alt="insta" id='contactimg' />
+          <img src={Face} alt="face" id='contactimg' />
+        </div>
+      </footer>
 
     </div>
   );
