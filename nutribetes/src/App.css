@@ -6,11 +6,13 @@ body {
   background-color: white;
 }
 
+/* LINKS SEM EFEITO */
 #links {
   text-decoration: none;
   color: inherit;
 }
 
+/* HEADER */
 header {
   position: fixed;
   background-color: #A3BF80;
@@ -34,6 +36,7 @@ header {
   }
 }
 
+/* INTRODUÇÃO */
 #intro {
   position: absolute;
   width: 100%;
@@ -65,6 +68,7 @@ header {
   }
 }
 
+/* BIOGRAFIA */
 #meet {
   position: absolute;
   top: 900px;
@@ -120,6 +124,7 @@ header {
   }
 }
 
+/* SEÇÃO SOBRE */
 #about {
   position: absolute;
   top: 1700px;
@@ -142,6 +147,7 @@ header {
     font-weight: 300;
   }
 
+  /* CARTÕES */
   table {
     position: absolute;
     top: 300px;
@@ -185,6 +191,7 @@ header {
         }
       }
 
+      /* HOVER DOS CARTÕES */
       #Infocards:hover {
         background-color: #9abd70;
 

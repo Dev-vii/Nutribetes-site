@@ -14,6 +14,8 @@ import Cardio from "./assets/img/cardio.jpg"
 function App() {
   return (
     <div className="App">
+
+      {/* HEADER */}
       <header className="App-header">
         <ul>
           <li><a href="#intro" id='links'>INTRODUÇÃO</a></li>
@@ -24,6 +26,7 @@ function App() {
       </header>
 
       <section>
+        {/* INTRODUÇÃO */}
         <div id='intro'>
           <img src={Fruits} alt="fruits" className='fruits' />
           <img src={Logo} alt="logo" className='logo1' />
@@ -31,6 +34,7 @@ function App() {
         </div>
 
         <div id='meet'>
+          {/* BIOGRAFIA */}
           <div className='textBox'>
             <h2>Nutricionista Claudineia Fiorini</h2>
             <p>Se você ou seu filho têm Diabetes Tipo 1, eu entendo os desafios diários que isso representa.</p>
@@ -41,9 +45,12 @@ function App() {
         </div>
 
         <div id='about'>
+          {/* SEÇÃO SOBRE */}
           <h3>A Nutribetes cuida de você com estratégia!</h3>
           <p>Cuidamos de você de forma integral</p>
           <table>
+
+            {/* CARTÕES */}
             <tr>
               <div id='Infocards'>
                 <h1>Diabetes <br />tipo 2</h1>
