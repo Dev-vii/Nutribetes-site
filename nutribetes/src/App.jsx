@@ -2,6 +2,7 @@ import './App.css';
 import Logo from "./assets/logo.jpg"
 import Fruits from "./assets/fruits.jpg"
 import Foto1 from "./assets/foto1.JPG"
+import Logo2 from "./assets/logo2.png"
 
 import Diabetes2 from "./assets/img/diabetes.png"
 import Hipertensão from "./assets/img/hipert.png"
@@ -51,6 +52,11 @@ function App() {
           </div>
         </div>
 
+    <div className='test'>
+      <img src={Logo2} alt="logo2" />
+    </div>
+
+
         <div id='about'>
           {/* SEÇÃO SOBRE */}
           <h3>A Nutribetes cuida de você com estratégia!</h3>
@@ -99,7 +105,7 @@ function App() {
             </tr>
           </table>
 
-          <button><a href="#contact" id='links'>Quero marcar minha consulta!</a></button>
+          <button><a href="#contact" id='links'>Quer marcar uma consulta?</a></button>
         </div>
 
         <div id='contact'>
