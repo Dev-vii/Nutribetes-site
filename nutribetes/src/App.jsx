@@ -16,6 +16,8 @@ import Zap from "./assets/redes/zap.png"
 import Insta from "./assets/redes/insta.png"
 import Face from "./assets/redes/face.png"
 
+import Banner1 from "./assets/banner-1.png"
+
 
 // git@github.com:Dev-vii/Nutribetes-site.git = chave
 
@@ -52,10 +54,11 @@ function App() {
           </div>
         </div>
 
-    <div className='test'>
-      <img src={Logo2} alt="logo2" />
-    </div>
-
+        {/* TRANSIÇÃO 1 */}
+        <div className='tran1'>
+          <img src={Banner1} alt="banner1" className='banner1' />
+          <img src={Logo2} alt="logo2" className='logo2' />
+        </div>
 
         <div id='about'>
           {/* SEÇÃO SOBRE */}
@@ -105,7 +108,7 @@ function App() {
             </tr>
           </table>
 
-          <button><a href="#contact" id='links'>Quer marcar uma consulta?</a></button>
+          <button><a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'>Quer marcar uma consulta?<img src={Zap} alt="zap" className='zapbutton' /></a></button>
         </div>
 
         <div id='contact'>
