@@ -1,6 +1,7 @@
 import './App.css';
 import Logo from "./assets/logo.jpg"
 import Fruits from "./assets/fruits.jpg"
+import Fruits2 from "./assets/fruits2.png"
 import Foto1 from "./assets/foto1.JPG"
 import Logo2 from "./assets/logo2.png"
 
@@ -47,8 +48,8 @@ function App() {
           {/* BIOGRAFIA */}
           <div className='textBox'>
             <h2>Nutricionista Claudineia Fiorini</h2>
-            <p>Se você ou seu filho têm Diabetes Tipo 1, eu entendo os desafios diários que isso representa.</p>
-            <p>A nutrição não é apenas sobre o que comemos – é sobre como nosso corpo<br /> responde aos alimentos. Por isso, meu acompanhamento é exclusivo e<br /> individualizado, ajudando você a encontrar Energia na Medida Certa.</p>
+            <p>Sou Claudineia Fiorini, nutricionista especialista em diabetes e contagem de <br />carboidratos, minha missão é tornar a alimentação uma aliada no seu <br />controle glicêmico.</p>
+            <p>A nutrição não é apenas sobre o que comemos, é sobre como nosso corpo<br /> responde aos alimentos. Por isso, meu acompanhamento é exclusivo e<br /> individualizado, ajudando você a encontrar <br /> energia na medida certa.</p>
             <img src={Foto1} alt="foto1" className='foto1' />
             <div className='border1'></div>
           </div>
@@ -108,7 +109,7 @@ function App() {
             </tr>
           </table>
 
-          <button><a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'>Quer marcar uma consulta?<img src={Zap} alt="zap" className='zapbutton' /></a></button>
+          <button><a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'>Quero marcar uma consulta!<img src={Zap} alt="zap" className='zapbutton' /></a></button>
         </div>
 
         <div id='contact'>
@@ -116,11 +117,17 @@ function App() {
         </div>
       </section>
 
+      {/* FOOTER */}
       <footer>
+        <img src={Fruits2} alt="fruits" className='fruits2' />
+        <img src={Logo2} alt="logo2" className='logo3' />
+        <p>55 (11) 99719-1101</p>
+        <div className='barra'></div>
         <div className='redesSociais'>
-          <img src={Zap} alt="zap" id='contactimg' />
-          <img src={Insta} alt="insta" id='contactimg' />
-          <img src={Face} alt="face" id='contactimg' />
+          <a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'><img src={Zap} alt="zap" id='contactimg' /></a>
+          <a href="https://www.instagram.com/neia.nutribetes/" target='blank' id='links'><img src={Insta} alt="insta" id='contactimg' /></a>
+          <a href="https://www.facebook.com/profile.php?id=61574214601109" target='blank' id='links'><img src={Face} alt="face" id='contactimg' /></a>
+          <p>©Nutribetes | Todos os direitos reservados.</p>
         </div>
       </footer>
 
