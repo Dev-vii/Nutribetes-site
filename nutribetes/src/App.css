@@ -286,6 +286,7 @@ header {
   }
 }
 
+/* FEEDBACK */
 #contact {
   position: relative;
   top: 3100px;
@@ -313,8 +314,8 @@ header {
       position: absolute;
       border-radius: 20px;
       height: 160px;
-      top: 450px;
-      left: 350px;
+      top: 470px;
+      right: 50px;
       transform: rotate(3deg);
       z-index: 2;
     }
@@ -324,7 +325,7 @@ header {
       border-radius: 20px;
       height: 500px;
       top: 100px;
-      right: 270px;
+      right: 300px;
     }
 
     .border2 {
@@ -336,13 +337,23 @@ header {
       border-color: #9abd70;
       border-width: 3px;
       top: 100px;
-      right: 260px;
+      right: 290px;
       transform: rotate(3deg);
-      z-index: -1;
+      z-index: -3;
+    }
+
+    .fruits3 {
+      position: absolute;
+      top: 420px;
+      left: -100px;
+      height: 450px;
+      filter: opacity(30%);
+      z-index: -4;
     }
   }
 }
 
+/* FOOTER */
 footer {
   position: relative;
   top: 4500px;

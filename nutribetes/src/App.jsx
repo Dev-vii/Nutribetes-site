@@ -2,6 +2,7 @@ import './App.css';
 import Logo from "./assets/logo.jpg"
 import Fruits from "./assets/fruits.jpg"
 import Fruits2 from "./assets/fruits2.png"
+import Fruits3 from "./assets/fruits3.png"
 import Foto1 from "./assets/foto1.JPG"
 import Logo2 from "./assets/logo2.png"
 
@@ -23,7 +24,7 @@ import Feed1 from "./assets/feedbacks/feed1.png"
 import Feed2 from "./assets/feedbacks/feed2.jpeg"
 
 
-// git@github.com:Dev-vii/Nutribetes-site.git = chave
+// git@github.com:Dev-vii/Nutribetes-site.git
 
 function App() {
   return (
@@ -125,6 +126,7 @@ function App() {
           <div className='feedbacks'>
             <img src={Feed1} alt="feed1" className='feed1' />
             <img src={Feed2} alt="feed2" className='feed2' />
+            <img src={Fruits3} alt="fruits3" className='fruits3' />
             <div className='border2'></div>
           </div>
         </div>
