@@ -19,6 +19,9 @@ import Face from "./assets/redes/face.png"
 
 import Banner1 from "./assets/banner-1.png"
 
+import Feed1 from "./assets/feedbacks/feed1.png"
+import Feed2 from "./assets/feedbacks/feed2.jpeg"
+
 
 // git@github.com:Dev-vii/Nutribetes-site.git = chave
 
@@ -113,7 +116,17 @@ function App() {
         </div>
 
         <div id='contact'>
-          <h4>Vamos marcar uma consulta?</h4>
+          <h4>Como funciona o <br /> atendimento?</h4>
+          <p>Individual – Acolhedor - Personalizado. <br />
+            Antes mesmo do nosso encontro, já buscamos entender sua<br /> realidade
+            hábitos alimentares, rotina familiar, valor calórico<br /> atual da alimentação
+            e possíveis obstáculos no <br />controle da glicemia.
+          </p>
+          <div className='feedbacks'>
+            <img src={Feed1} alt="feed1" className='feed1' />
+            <img src={Feed2} alt="feed2" className='feed2' />
+            <div className='border2'></div>
+          </div>
         </div>
       </section>
 
