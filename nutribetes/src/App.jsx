@@ -36,6 +36,7 @@ function App() {
           <li><a href="#intro" id='links'>INTRODUÇÃO</a></li>
           <li><a href="#meet" id='links'>CONHEÇA</a></li>
           <li><a href="#about" id='links'>SOBRE</a></li>
+          <li><a href="#atend" id='links'>ATENDIMENTO</a></li>
           <li><a href="#contact" id='links'>CONTATO</a></li>
         </ul>
       </header>
@@ -116,7 +117,7 @@ function App() {
           <button><a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'>Quero marcar uma consulta!<img src={Zap} alt="zap" className='zapbutton' /></a></button>
         </div>
 
-        <div id='contact'>
+        <div id='atend'>
           <h4>Como funciona o <br /> atendimento?</h4>
           <p>Individual – Acolhedor - Personalizado. <br />
             Antes mesmo do nosso encontro, já buscamos entender sua<br /> realidade
@@ -130,6 +131,21 @@ function App() {
             <div className='border2'></div>
           </div>
         </div>
+
+        <div id='contact'>
+          <h5>Eaí, vamos marcar sua consulta?</h5>
+          <div className='redesSociais1'>
+            <div className='contacts'>
+              <a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'><img src={Zap} alt="zap" id='contactimg' /></a>
+            </div>
+            <div className='contacts'>
+              <a href="https://www.instagram.com/neia.nutribetes/" target='blank' id='links'><img src={Insta} alt="insta" id='contactimg' /></a>
+            </div>
+            <div className='contacts'>
+              <a href="https://www.facebook.com/profile.php?id=61574214601109" target='blank' id='links'><img src={Face} alt="face" id='contactimg' /></a>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* FOOTER */}
@@ -138,7 +154,7 @@ function App() {
         <img src={Logo2} alt="logo2" className='logo3' />
         <p>55 (11) 99719-1101</p>
         <div className='barra'></div>
-        <div className='redesSociais'>
+        <div className='redesSociais2'>
           <a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'><img src={Zap} alt="zap" id='contactimg' /></a>
           <a href="https://www.instagram.com/neia.nutribetes/" target='blank' id='links'><img src={Insta} alt="insta" id='contactimg' /></a>
           <a href="https://www.facebook.com/profile.php?id=61574214601109" target='blank' id='links'><img src={Face} alt="face" id='contactimg' /></a>
