@@ -466,3 +466,91 @@ footer {
     }
   }
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+
+    ul {
+      gap: 50px;
+    }
+  }
+
+  /* INTRODUÇÃO */
+  #intro {
+
+    .fruits {
+      width: 160%;
+      left: -190px;
+      top: 180px;
+    }
+
+    .logo1 {
+      top: 100px;
+      height: 250px;
+    }
+
+    h1 {
+      top: 280px;
+    }
+  }
+
+  /* BIOGRAFIA */
+  #meet {
+
+    .textBox {
+      width: 350px;
+      height: 240px;
+      border-radius: 30px;
+      top: 440px;
+      left: 20px;
+    }
+
+    h2 {
+      top: 25px;
+      left: 10px;
+      font-size: 27px;
+    }
+
+    p {
+      top: 10px;
+      left: 10px;
+      font-size: 10px;
+      text-align: left;
+    }
+
+    .foto1 {
+      top: -360px;
+      left: 20px;
+      height: 420px;
+      border-radius: 20px;
+      z-index: -1;
+    }
+
+    .border1 {
+      top: -360px;
+      left: 40px;
+      height: 420px;
+      width: 290px;
+      border-radius: 20px;
+      z-index: -2;
+    }
+  }
+
+  /* TRANSIÇÃO1 */
+  .tran1 {
+
+    .banner1 {
+      width: 100%;
+      height: 100px;
+    }
+
+    .logo2 {
+      height: 130px;
+      top: -10px;
+    }
+  }
+}
