@@ -490,19 +490,20 @@ footer {
 
     .logo1 {
       top: 100px;
-      height: 250px;
+      height: 270px;
     }
 
     h1 {
-      top: 280px;
+      top: 300px;
     }
   }
 
   /* BIOGRAFIA */
   #meet {
+    top: 700px;
 
     .textBox {
-      width: 350px;
+      width: 90%;
       height: 240px;
       border-radius: 30px;
       top: 440px;
@@ -542,15 +543,102 @@ footer {
 
   /* TRANSIÇÃO1 */
   .tran1 {
+    top: 1470px;
 
     .banner1 {
       width: 100%;
-      height: 100px;
+      height: 70px;
     }
 
     .logo2 {
-      height: 130px;
-      top: -10px;
+      height: 90px;
+      top: -5px;
+    }
+  }
+
+  /* SEÇÃO SOBRE */
+  #about {
+    position: absolute;
+    top: 1620px;
+
+    h3 {
+      font-size: 40px;
+    }
+
+    p {
+      top: 25px;
+      font-size: 17px;
+    }
+
+    /* CARTÕES */
+    table {
+      top: 350px;
+
+      tr {
+        gap: 10px;
+
+        #Infocards {
+          width: 120px;
+          height: 180px;
+
+          h1 {
+            display: none;
+            top: 0;
+            left: 10px;
+          }
+
+          p {
+            position: relative;
+            display: none;
+          }
+
+          #ImgBox {
+            height: 90px;
+            top: 90px;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        /* HOVER DOS CARTÕES */
+        #Infocards:hover {
+
+          h1 {
+            display: block;
+            font-size: 19px;
+          }
+
+          p {
+            left: 10px;
+            font-size: 11px;
+          }
+
+          #ImgBox {
+            display: none;
+            transition: all 0.4s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
+  button {
+    cursor: pointer;
+    position: relative;
+    height: 0;
+    width: 50px;
+    top: 850px;
+    left: 50%;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 50px;
+
+    .zapbutton {
+      position: absolute;
+      height: 50px;
+      top: 50%;
+      right: 25px;
+      transform: translate(0, -50%);
     }
   }
 }
