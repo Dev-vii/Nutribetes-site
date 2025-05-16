@@ -353,6 +353,7 @@ header {
   }
 }
 
+/* CONTATOS */
 #contact {
   position: relative;
   top: 3900px;
@@ -619,26 +620,141 @@ footer {
         }
       }
     }
+
+    button {
+      top: 600px;
+      height: 80px;
+      width: 270px;
+      font-size: 25px;
+
+      .zapbutton {
+        display: none;
+      }
+    }
   }
 
-  button {
-    cursor: pointer;
+  /* FEEDBACK */
+  #atend {
     position: relative;
-    height: 0;
-    width: 50px;
-    top: 850px;
-    left: 50%;
-    font-size: 28px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: none;
-    border-radius: 50px;
+    top: 2450px;
 
-    .zapbutton {
+    h4 {
+      top: 20px;
+      left: 20px;
+      font-size: 45px;
+    }
+
+    p {
+      top: 200px;
+      left: 20px;
+      font-size: 15px;
+    }
+
+    .feedbacks {
+
+      .feed1 {
+        height: 170px;
+        top: 850px;
+        left: 30px;
+      }
+
+      .feed2 {
+        top: 400px;
+        left: 50px;
+      }
+
+      .border2 {
+        top: 400px;
+        left: 50px;
+      }
+
+      .fruits3 {
+        top: 350px;
+      }
+    }
+  }
+
+  /* CONTATOS */
+  #contact {
+    position: relative;
+    top: 3550px;
+
+    h5 {
+      font-size: 42px;
+    }
+
+    .redesSociais1 {
+      gap: 10px;
+
+      .contacts {
+        top: 70px;
+        height: 100px;
+        width: 100px;
+        border-radius: 30px;
+
+        #contactimg {
+          height: 60px;
+        }
+      }
+
+      .contacts:hover {
+        top: 60px;
+      }
+    }
+  }
+
+  /* FOOTER */
+  footer {
+    top: 4150px;
+
+    .fruits2 {
       position: absolute;
-      height: 50px;
+      top: -480px;
+      height: 700px;
+      left: 50%;
+      transform: translate(-50%);
+      filter: opacity(70%);
+      z-index: -3;
+    }
+
+    .logo3 {
+      height: 160px;
+      top: 60px;
+      left: 7px;
+    }
+
+    p {
+      display: none;
+    }
+
+    .barra {
+      position: absolute;
+      height: 200px;
+      width: 5px;
+      background-color: white;
+      border-radius: 10px;
+      left: 50%;
       top: 50%;
-      right: 25px;
-      transform: translate(0, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .redesSociais2 {
+      display: grid;
+      top: 70px;
+      left: -10px;
+      gap: 10px;
+
+      #contactimg {
+        height: 40px;
+      }
+
+      p {
+        display: block;
+        top: -40px;
+        left: 10px;
+        text-align: center;
+        font-size: 10px;
+      }
     }
   }
 }
