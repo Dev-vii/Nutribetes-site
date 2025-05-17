@@ -152,13 +152,12 @@ function App() {
       <footer>
         <img src={Fruits2} alt="fruits" className='fruits2' />
         <img src={Logo2} alt="logo2" className='logo3' />
-        <p>55 (11) 99719-1101</p>
+        <p>©Nutribetes <br />Todos os direitos reservados.</p>
         <div className='barra'></div>
         <div className='redesSociais2'>
           <a href="https://api.whatsapp.com/send/?phone=5511997191101&text&type=phone_number&app_absent=0" target='blank' id='links'><img src={Zap} alt="zap" id='contactimg' /></a>
           <a href="https://www.instagram.com/neia.nutribetes/" target='blank' id='links'><img src={Insta} alt="insta" id='contactimg' /></a>
           <a href="https://www.facebook.com/profile.php?id=61574214601109" target='blank' id='links'><img src={Face} alt="face" id='contactimg' /></a>
-          <p>©Nutribetes | Todos os direitos reservados.</p>
         </div>
       </footer>
 
