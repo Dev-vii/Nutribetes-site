@@ -6,6 +6,12 @@ import Fruits3 from "./assets/fruits3.png"
 import Foto1 from "./assets/foto1.JPG"
 import Logo2 from "./assets/logo2.png"
 
+import intromobile from "./assets/header2/intro.png"
+import meetbomile from "./assets/header2/meet.png"
+import aboutmobile from "./assets/header2/about.png"
+import atendmobile from "./assets/header2/atend.png"
+import contactmobile from "./assets/header2/contact.png"
+
 import Diabetes2 from "./assets/img/diabetes.png"
 import Hipertensão from "./assets/img/hipert.png"
 import Obesidade from "./assets/img/obesidade.png"
@@ -39,6 +45,14 @@ function App() {
           <li><a href="#atend" id='links'>ATENDIMENTO</a></li>
           <li><a href="#contact" id='links'>CONTATO</a></li>
         </ul>
+
+        <div id='headermobile'>
+          <a href="#intro"><img src={intromobile} alt='iconsmobile' id='iconsmobile' /></a>
+          <a href="#meet"><img src={meetbomile} alt='meetmobile' id='iconsmobile' /></a>
+          <a href="#about"><img src={aboutmobile} alt='aboutmobile' id='iconsmobile' /></a>
+          <a href="#atend"><img src={atendmobile} alt='atendmobile' id='iconsmobile' /></a>
+          <a href="#contact"><img src={contactmobile} alt='contactmobile' id='iconsmobile' /></a>
+        </div>
       </header>
 
       <section>

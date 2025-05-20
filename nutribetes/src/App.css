@@ -34,6 +34,10 @@ header {
     justify-content: center;
     color: white;
   }
+
+  #headermobile {
+    display: none;
+  }
 }
 
 /* INTRODUÇÃO */
@@ -477,6 +481,21 @@ footer {
 
     ul {
       gap: 10px;
+      display: none;
+    }
+
+    #headermobile {
+      position: relative;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+      top: 10px;
+
+      #iconsmobile {
+        position: relative;
+        height: 30px;
+      }
     }
   }
 
