@@ -592,20 +592,19 @@ footer {
 
     /* CARTÕES */
     table {
-      top: 350px;
+      top: 310px;
 
       tr {
         gap: 10px;
 
         /* PROBLEMA */
         #Infocards {
-          width: 50px;
-          height: 80px;
+          width: 90px;
+          height: 120px;
 
           h1 {
             display: none;
             top: 0;
-            left: 10px;
           }
 
           p {
@@ -614,8 +613,8 @@ footer {
           }
 
           #ImgBox {
-            height: 90px;
-            top: 90px;
+            height: 70px;
+            top: 50%;
             transform: translate(-50%, -50%);
           }
         }
@@ -624,13 +623,16 @@ footer {
         #Infocards:hover {
 
           h1 {
+            position: relative;
             display: block;
-            font-size: 19px;
+            font-size: 15px;
+            text-align: center;
+            left: 0px;
+            top: 30px;
           }
 
           p {
-            left: 10px;
-            font-size: 11px;
+            display: none;
           }
 
           #ImgBox {
@@ -642,7 +644,7 @@ footer {
     }
 
     button {
-      top: 600px;
+      top: 450px;
       height: 80px;
       width: 270px;
       font-size: 25px;
@@ -725,18 +727,17 @@ footer {
 
   /* FOOTER */
   footer {
-    top: 4150px;
+    top: 4050px;
     width: 100%;
 
     .fruits2 {
       position: absolute;
-      top: -480px;
-      height: 700px;
+      top: -230px;
+      height: 230px;
       left: 50%;
       transform: translate(-50%);
       filter: opacity(70%);
       z-index: -3;
-      display: none;
     }
 
     .logo3 {
